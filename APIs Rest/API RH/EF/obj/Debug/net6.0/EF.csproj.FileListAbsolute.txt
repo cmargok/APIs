@@ -1,0 +1,15 @@
+C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\EF\bin\Debug\net6.0\EF.deps.json
+C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\EF\bin\Debug\net6.0\EF.dll
+C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\EF\bin\Debug\net6.0\EF.pdb
+C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\EF\bin\Debug\net6.0\DataContext.dll
+C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\EF\bin\Debug\net6.0\DataContext.pdb
+C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\EF\obj\Debug\net6.0\EF.csproj.AssemblyReference.cache
+C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\EF\obj\Debug\net6.0\EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\EF\obj\Debug\net6.0\EF.AssemblyInfoInputs.cache
+C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\EF\obj\Debug\net6.0\EF.AssemblyInfo.cs
+C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\EF\obj\Debug\net6.0\EF.csproj.CoreCompileInputs.cache
+C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\EF\obj\Debug\net6.0\EF.csproj.CopyComplete
+C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\EF\obj\Debug\net6.0\EF.dll
+C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\EF\obj\Debug\net6.0\refint\EF.dll
+C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\EF\obj\Debug\net6.0\EF.pdb
+C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\EF\obj\Debug\net6.0\ref\EF.dll

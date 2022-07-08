@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pfPZ9rrb0aCP2QBhAuGpCSLshLNegDXZZdqX3xRXwiU=",
+  "Source": "ApiRecursosHumanos",
+  "BasePath": "_content/ApiRecursosHumanos",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
