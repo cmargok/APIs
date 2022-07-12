@@ -29,3 +29,17 @@ C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\DataContext\obj\Debug\net6.0\
 C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\DataContext\obj\Debug\net6.0\DataContext.pdb
 C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\DataContext\obj\Debug\net6.0\DataContext.genruntimeconfig.cache
 C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\DataContext\obj\Debug\net6.0\ref\DataContext.dll
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\DataContext\bin\Debug\net6.0\DataContext.deps.json
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\DataContext\bin\Debug\net6.0\DataContext.runtimeconfig.json
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\DataContext\bin\Debug\net6.0\DataContext.dll
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\DataContext\bin\Debug\net6.0\DataContext.pdb
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\DataContext\obj\Debug\net6.0\DataContext.csproj.AssemblyReference.cache
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\DataContext\obj\Debug\net6.0\DataContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\DataContext\obj\Debug\net6.0\DataContext.AssemblyInfoInputs.cache
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\DataContext\obj\Debug\net6.0\DataContext.AssemblyInfo.cs
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\DataContext\obj\Debug\net6.0\DataContext.csproj.CoreCompileInputs.cache
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\DataContext\obj\Debug\net6.0\DataContext.dll
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\DataContext\obj\Debug\net6.0\refint\DataContext.dll
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\DataContext\obj\Debug\net6.0\DataContext.pdb
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\DataContext\obj\Debug\net6.0\DataContext.genruntimeconfig.cache
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\DataContext\obj\Debug\net6.0\ref\DataContext.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\WebApplication1\\ApiRecursosHumanos.csproj": {}
+    "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\WebApplication1\\ApiRecursosHumanos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\ADO.Net\\ADO.Net.csproj": {
+    "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\ADO.Net\\ADO.Net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\ADO.Net\\ADO.Net.csproj",
+        "projectUniqueName": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\ADO.Net\\ADO.Net.csproj",
         "projectName": "ADO.Net",
-        "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\ADO.Net\\ADO.Net.csproj",
+        "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\ADO.Net\\ADO.Net.csproj",
         "packagesPath": "C:\\Users\\cmarg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\ADO.Net\\obj\\",
+        "outputPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\ADO.Net\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\DataContext\\DataContext.csproj": {
-                "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\DataContext\\DataContext.csproj"
+              "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\DataContext\\DataContext.csproj": {
+                "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\DataContext\\DataContext.csproj"
               },
-              "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\Modelos\\Models.csproj": {
-                "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\Modelos\\Models.csproj"
+              "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\Modelos\\Models.csproj": {
+                "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\Modelos\\Models.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\DataContext\\DataContext.csproj": {
+    "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\DataContext\\DataContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\DataContext\\DataContext.csproj",
+        "projectUniqueName": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\DataContext\\DataContext.csproj",
         "projectName": "DataContext",
-        "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\DataContext\\DataContext.csproj",
+        "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\DataContext\\DataContext.csproj",
         "packagesPath": "C:\\Users\\cmarg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\DataContext\\obj\\",
+        "outputPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\DataContext\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -145,14 +145,14 @@
         }
       }
     },
-    "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\Modelos\\Models.csproj": {
+    "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\Modelos\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\Modelos\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\Modelos\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\Modelos\\Models.csproj",
+        "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\Modelos\\Models.csproj",
         "packagesPath": "C:\\Users\\cmarg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\Modelos\\obj\\",
+        "outputPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\Modelos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -203,14 +203,14 @@
         }
       }
     },
-    "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\WebApplication1\\ApiRecursosHumanos.csproj": {
+    "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\WebApplication1\\ApiRecursosHumanos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\WebApplication1\\ApiRecursosHumanos.csproj",
+        "projectUniqueName": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\WebApplication1\\ApiRecursosHumanos.csproj",
         "projectName": "ApiRecursosHumanos",
-        "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\WebApplication1\\ApiRecursosHumanos.csproj",
+        "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\WebApplication1\\ApiRecursosHumanos.csproj",
         "packagesPath": "C:\\Users\\cmarg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -231,14 +231,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\ADO.Net\\ADO.Net.csproj": {
-                "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\ADO.Net\\ADO.Net.csproj"
+              "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\ADO.Net\\ADO.Net.csproj": {
+                "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\ADO.Net\\ADO.Net.csproj"
               },
-              "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\DataContext\\DataContext.csproj": {
-                "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\DataContext\\DataContext.csproj"
+              "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\DataContext\\DataContext.csproj": {
+                "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\DataContext\\DataContext.csproj"
               },
-              "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\Modelos\\Models.csproj": {
-                "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\Modelos\\Models.csproj"
+              "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\Modelos\\Models.csproj": {
+                "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\Modelos\\Models.csproj"
               }
             }
           }

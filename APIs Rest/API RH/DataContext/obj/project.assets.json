@@ -1869,11 +1869,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\DataContext\\DataContext.csproj",
+      "projectUniqueName": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\DataContext\\DataContext.csproj",
       "projectName": "DataContext",
-      "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\DataContext\\DataContext.csproj",
+      "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\DataContext\\DataContext.csproj",
       "packagesPath": "C:\\Users\\cmarg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\DataContext\\obj\\",
+      "outputPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\DataContext\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

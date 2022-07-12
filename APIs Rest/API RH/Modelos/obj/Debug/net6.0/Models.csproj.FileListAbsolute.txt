@@ -10,3 +10,15 @@ C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\Modelos\obj\Debug\net6.0\Mode
 C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\Modelos\obj\Debug\net6.0\refint\Models.dll
 C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\Modelos\obj\Debug\net6.0\Models.pdb
 C:\Users\cmarg\Documents\cmargok\AsyncSocket\temp1\Modelos\obj\Debug\net6.0\ref\Models.dll
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\Modelos\bin\Debug\net6.0\Models.deps.json
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\Modelos\bin\Debug\net6.0\Models.dll
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\Modelos\bin\Debug\net6.0\Models.pdb
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\Modelos\obj\Debug\net6.0\Models.csproj.AssemblyReference.cache
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\Modelos\obj\Debug\net6.0\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\Modelos\obj\Debug\net6.0\Models.AssemblyInfoInputs.cache
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\Modelos\obj\Debug\net6.0\Models.AssemblyInfo.cs
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\Modelos\obj\Debug\net6.0\Models.csproj.CoreCompileInputs.cache
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\Modelos\obj\Debug\net6.0\Models.dll
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\Modelos\obj\Debug\net6.0\refint\Models.dll
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\Modelos\obj\Debug\net6.0\Models.pdb
+C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\API RH\Modelos\obj\Debug\net6.0\ref\Models.dll

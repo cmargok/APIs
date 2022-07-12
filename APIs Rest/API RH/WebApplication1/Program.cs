@@ -14,7 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<RH_Context>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("rh_connection")));
-builder.Services.AddScoped<IAdoRepository>(connection => new AdoRepository(builder.Configuration.GetConnectionString("rh_connection")));
+builder.Services.AddSingleton<IAdoRepository>(connection => new AdoRepository(builder.Configuration.GetConnectionString("rh_connection")));
 
 
 //AdoRepository(obje=> obje.)>();

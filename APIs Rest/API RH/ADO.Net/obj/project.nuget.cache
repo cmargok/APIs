@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CvqLGsXBTeUEK0LDXEZtjhqBbjLtf90cxqtL+RgXJ/nqLJQuuSx7jnmniHT7yf/pAvb7nzS9sHOkacocZ/1KSQ==",
+  "dgSpecHash": "JtzEHjO6Kuhbam4jtVeczrkPRUetdEokfz9o000j1I4zHOWqgabW78ZwB+ayqvZyOhUFYybR+Q6phlNX5AUL/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\ADO.Net\\ADO.Net.csproj",
+  "projectFilePath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\ADO.Net\\ADO.Net.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cmarg\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\cmarg\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

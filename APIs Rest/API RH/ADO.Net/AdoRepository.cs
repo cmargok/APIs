@@ -8,6 +8,9 @@ using System.Data.SqlClient;
 
 namespace ADO.Net
 {
+    /// <summary>
+    /// Clase que implementa la interfaz <c>IAdoRepository</c>
+    /// </summary>
     public class AdoRepository : IAdoRepository
     {
         private string conecctionString;
@@ -19,32 +22,43 @@ namespace ADO.Net
 
             conecctionString = connection;
         }        
-
+        
+        //metodo para obtener la ciudad por el id
         public Task<CiudadResponseModel> GetCiudadById(string Id)
         {
+            //instanciamos un modelo de respuesta
             CiudadResponseModel responseModel = new();
             try
             {
+                //usamos temporalmente una conexion a la base de datos
                 using (sqlserver = new SqlConnection(conecctionString))
                 {
+                    //abrimos la conexion
                     sqlserver.Open();
 
+                    //creamos una linea de General de SQL
                     SqlCommand cmd = sqlserver.CreateCommand();
 
                     cmd.Connection = sqlserver;
 
+                    //quemamos el boceto de la consulta
                     string query = "SELECT ciud_ID, ciud_nombre, pais_ID " +
                                    "FROM Ciudad AS ciud " +
                                    "WHERE ciud.ciud_ID = @ciud_ID;";
                                     
+                    //asignamos la consulta a la linea de sql
                     cmd.CommandText = query;
 
+                    //parseamos los parametros
                     cmd.Parameters.AddWithValue("@ciud_ID",Id);
 
+                    //ejecutamos la linea de sql
                     var ciudadFromDB = cmd.ExecuteReader();
 
+                    //comprobamos si hubiern lineas afectadas en la base de datos
                     if(ciudadFromDB.HasRows)
                     {
+                        //si las hay, leemos las lineas y las mapeamos al modelo
                         while (ciudadFromDB.Read())
                         {
                             responseModel.ciud_ID = (string)ciudadFromDB["ciud_ID"];
@@ -54,9 +68,11 @@ namespace ADO.Net
                     }
                     else
                     {
+                        //si no hay lineas lanzamos una excepcion
                         throw new Exception("The SELECT statement conflicted with Ciud_ID, the conflic occured by sending an invalid ciud_ID, NOT FOUND");
                     }
 
+                    //llenamos el modelo de respuesta acorder a lo acordado
                     responseModel.Succcess = true;
                     responseModel.ErrorDetail = "";
                     responseModel.ErrorNumber = "";
@@ -65,6 +81,8 @@ namespace ADO.Net
             }
             catch (Exception exp)
             {
+                //excepcion general, 
+                
                 responseModel.ciud_ID = null!;
                 responseModel.ciud_nombre = null!;
                 responseModel.pais_ID = null;
@@ -83,6 +101,7 @@ namespace ADO.Net
             return Task.FromResult(responseModel);
         }
 
+        //metodo para obtener todas las ciudades
         public Task<CiudadesResponseModel> GetCiudades()
         {
             CiudadesResponseModel responseModel = new();
@@ -143,6 +162,8 @@ namespace ADO.Net
             return Task.FromResult(responseModel);
         }
 
+
+        //metodo para agregar una ciudad
         public Task<CiudadResponseModel> PostCiudad(CiudadCreateModel ciudad)
         {
             CiudadResponseModel responseModel = new CiudadResponseModel
@@ -181,6 +202,7 @@ namespace ADO.Net
                 }
 
             }
+            //lanzamos un catch con un SqlException para atrapar lso errores de enviados por la base de datos
             catch (SqlException exp)
             {
                 responseModel.Succcess = false;
@@ -209,6 +231,8 @@ namespace ADO.Net
             return Task.FromResult(responseModel);
         }
 
+
+        //metodo  para actualizar una ciudad
         public Task<CiudadResponseModel> UpdateCiudad(string Id, CiudadModifyModel ciudadModify)
         {
            CiudadResponseModel responseModel = new CiudadResponseModel
@@ -282,6 +306,8 @@ namespace ADO.Net
             return Task.FromResult(responseModel);
         }
 
+
+        //metodo para eliminar una ciudad
         public Task<CiudadResponseModel> DeleteCiudad(string Id)
         {
             CiudadResponseModel responseModel = new();

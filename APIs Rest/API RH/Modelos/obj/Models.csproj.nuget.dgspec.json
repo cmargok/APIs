@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\Modelos\\Models.csproj": {}
+    "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\Modelos\\Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\Modelos\\Models.csproj": {
+    "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\Modelos\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\Modelos\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\Modelos\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\Modelos\\Models.csproj",
+        "projectPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\Modelos\\Models.csproj",
         "packagesPath": "C:\\Users\\cmarg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\Modelos\\obj\\",
+        "outputPath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\Modelos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

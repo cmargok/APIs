@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0BC1aiElsLR+Ul9wvq2TZgldZPQmxun97cQZuzu7mWWBC5FAwyg7g7BT4j/2Y5wbtXMPXRVqx5HI6w6YgVUXtg==",
+  "dgSpecHash": "tZm0vq8VO1pxIuofLQBOWi1geLD0/faMt0d6yaNn6IKpdS0sNJub9/x+DkNlBnMF/T1PDOnscHNw/cU3HKhNTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cmarg\\Documents\\cmargok\\AsyncSocket\\temp1\\WebApplication1\\ApiRecursosHumanos.csproj",
+  "projectFilePath": "C:\\Users\\cmarg\\Documents\\cmargok\\APIs\\APIs Rest\\API RH\\WebApplication1\\ApiRecursosHumanos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cmarg\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\cmarg\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
