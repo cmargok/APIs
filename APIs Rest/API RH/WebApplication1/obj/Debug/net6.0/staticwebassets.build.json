@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "pfPZ9rrb0aCP2QBhAuGpCSLshLNegDXZZdqX3xRXwiU=",
-  "Source": "ApiRecursosHumanos",
-  "BasePath": "_content/ApiRecursosHumanos",
+  "Hash": "wTrzttvKiGtnJMaNvdSeScL4X8ZIK0tK346YRuwhj8s=",
+  "Source": "RecursosHumanos.API",
+  "BasePath": "_content/RecursosHumanos.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

@@ -1,7 +1,10 @@
-using DataContext;
+
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
-using ADO.Net;
+using RecursosHumanos.API.DataAccess;
+using RecursosHumanos.API.Services;
+using Microsoft.AspNetCore.Authentication;
+using RecursosHumanos.API.MinimalSecurity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +18,11 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<RH_Context>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("rh_connection")));
 builder.Services.AddSingleton<IAdoRepository>(connection => new AdoRepository(builder.Configuration.GetConnectionString("rh_connection")));
+builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddAuthentication("BasicAuthentication")
+            .AddScheme<AuthenticationSchemeOptions, BasicAuthHandler>("BasicAuthentication", null);
+
 
 
 //AdoRepository(obje=> obje.)>();
@@ -31,6 +39,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

@@ -1,12 +1,15 @@
 ﻿
-using DataContext;
-using DataContext.Models;
+
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Models.CreateModels;
-using Models.ModifyModel;
-using Models.ResponseModels;
 using System.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using RecursosHumanos.API.DataAccess;
+using RecursosHumanos.API.Models.ResponseModels;
+using RecursosHumanos.API.DataAccess.Models;
+using RecursosHumanos.API.Models.CreateModels;
+using RecursosHumanos.API.Models.ModifyModel;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApplication1.Controllers
 {
@@ -27,18 +30,19 @@ namespace WebApplication1.Controllers
 
         //metodo get que devuelve una lista con los paises de la BD
         [HttpGet]
-        public async Task<IActionResult> getPaises()
+        [Authorize]
+        public async Task<IActionResult> GetPaises()
         {
 
             try
             {
                 PaisesResponseModel paises = new();
-
-                paises.Paises = rh_context.PAIS .ToList() .Select(pais => new PaisModel {
-                                                                                            pais_ID = pais.pais_ID,
-                                                                                            pais_nombre = pais.pais_nombre
-
-                                                                                        });
+                
+                 paises.Paises  = await rh_context.PAIS.Select(pais => new PaisModel {
+                                                                            pais_ID = pais.pais_ID,
+                                                                            pais_nombre = pais.pais_nombre
+                                                                            })
+                                            .ToListAsync();
 
                 if (paises.Paises == null)  return StatusCode(StatusCodes.Status404NotFound, "NO DATA FOUND");
 
@@ -52,7 +56,7 @@ namespace WebApplication1.Controllers
 
         //metodo que devuelve el pais seleccionado por medio del id
         [HttpGet("{Id}")]
-        public async Task<IActionResult> getPais(string Id)
+        public async Task<IActionResult> GetPais(string Id)
         {
 
             //cojemos las 3 primeras letras y las pasamos a mayusculas
@@ -61,7 +65,7 @@ namespace WebApplication1.Controllers
             try
             {
                 //buscamos el pais con LINQ en la BD
-                PAIS? pais = rh_context.PAIS.SingleOrDefault(s => s.pais_ID == Id);
+                PAIS? pais = await rh_context.PAIS.FirstOrDefaultAsync(s => s.pais_ID == Id);
 
                 if (pais == null)
                 {
@@ -84,6 +88,12 @@ namespace WebApplication1.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
+
+
+
+
+
+
 
         //metodo para agregar un pais, usando como parametro un modelo de creacion de pais
         [HttpPost]
@@ -154,7 +164,8 @@ namespace WebApplication1.Controllers
         [HttpDelete("{Id}")]
         public async Task<IActionResult> DeletePais(string Id)
         {
-            Id = Id.Substring(0, 3).ToUpper();
+            //toma desde posicion 0 hasta la 2 (osea 3 lugares)
+            Id = Id[..3].ToUpper();
 
             try
             {

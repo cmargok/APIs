@@ -1,11 +1,10 @@
-﻿using ADO.Net;
-using DataContext;
-using DataContext.Models;
+﻿
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Models.CreateModels;
-using Models.ModifyModel;
-using Models.ResponseModels;
+using RecursosHumanos.API.DataAccess;
+using RecursosHumanos.API.Models.CreateModels;
+using RecursosHumanos.API.Models.ModifyModel;
+using RecursosHumanos.API.Models.ResponseModels;
 //using WebApplication1.Models;
 
 namespace WebApplication1.Controllers

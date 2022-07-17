@@ -1,7 +1,7 @@
-﻿using DataContext;
-using DataContext.Models;
+﻿
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RecursosHumanos.API.DataAccess;
 
 namespace WebApplication1.Controllers
 {
