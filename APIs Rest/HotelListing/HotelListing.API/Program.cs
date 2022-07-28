@@ -1,3 +1,5 @@
+using Serilog;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -17,6 +19,13 @@ builder.Services.AddCors(options =>
         .AllowAnyMethod()
         .AllowAnyOrigin());
 });
+
+//adding serilog
+builder.Host.UseSerilog((ctx, loggerConfig) => 
+                                                loggerConfig.WriteTo.Console()
+                                                            .ReadFrom.Configuration(ctx.Configuration));
+
+
 
 var app = builder.Build();
 

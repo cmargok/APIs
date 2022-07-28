@@ -1,0 +1,34 @@
+2022-07-27 23:13:16.405 -05:00 [INF] Now listening on: https://localhost:7281
+2022-07-27 23:13:16.446 -05:00 [INF] Now listening on: http://localhost:5281
+2022-07-27 23:13:16.453 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-27 23:13:16.455 -05:00 [INF] Hosting environment: Development
+2022-07-27 23:13:16.456 -05:00 [INF] Content root path: C:\Users\cmarg\Documents\cmargok\APIs\APIs Rest\HotelListing\HotelListing.API\
+2022-07-27 23:13:17.377 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger - -
+2022-07-27 23:13:17.494 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger - - - 301 0 - 120.2965ms
+2022-07-27 23:13:17.501 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/index.html - -
+2022-07-27 23:13:17.680 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - -
+2022-07-27 23:13:17.680 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - -
+2022-07-27 23:13:17.680 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - -
+2022-07-27 23:13:17.680 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - -
+2022-07-27 23:13:17.681 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/index.html - - - 200 - text/html;charset=utf-8 180.3040ms
+2022-07-27 23:13:17.685 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 5.2539ms
+2022-07-27 23:13:17.695 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-07-27 23:13:17.706 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - -
+2022-07-27 23:13:17.717 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui.css - - - 200 143632 text/css 37.0568ms
+2022-07-27 23:13:17.724 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-07-27 23:13:17.726 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 45.9957ms
+2022-07-27 23:13:17.730 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-07-27 23:13:17.731 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 51.1384ms
+2022-07-27 23:13:17.838 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 131.5330ms
+2022-07-27 23:13:17.901 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - -
+2022-07-27 23:13:17.925 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7281/swagger/favicon-32x32.png - -
+2022-07-27 23:13:17.926 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-07-27 23:13:17.929 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/favicon-32x32.png - - - 200 628 image/png 3.9456ms
+2022-07-27 23:13:18.007 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7281/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 105.8806ms
+2022-07-27 23:13:27.677 -05:00 [INF] Request starting HTTP/2 GET https://localhost:7281/WeatherForecast - -
+2022-07-27 23:13:27.685 -05:00 [INF] Executing endpoint 'HotelListing.API.Controllers.WeatherForecastController.Get (HotelListing.API)'
+2022-07-27 23:13:27.694 -05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[HotelListing.API.WeatherForecast] Get() on controller HotelListing.API.Controllers.WeatherForecastController (HotelListing.API).
+2022-07-27 23:13:27.701 -05:00 [INF] Executing ObjectResult, writing value of type 'HotelListing.API.WeatherForecast[]'.
+2022-07-27 23:13:27.711 -05:00 [INF] Executed action HotelListing.API.Controllers.WeatherForecastController.Get (HotelListing.API) in 9.7188ms
+2022-07-27 23:13:27.714 -05:00 [INF] Executed endpoint 'HotelListing.API.Controllers.WeatherForecastController.Get (HotelListing.API)'
+2022-07-27 23:13:27.715 -05:00 [INF] Request finished HTTP/2 GET https://localhost:7281/WeatherForecast - - - 200 - application/json;+charset=utf-8 38.2953ms
